@@ -15,6 +15,15 @@ html {
   margin:40px auto;
 }
 
+.img-left{
+  float:left;
+  border: 1px solid #ccc;
+  padding:5px;
+  border-radius:5px;
+  margin:10px 20px 10px 0;
+}
+
+
 /*------Responsive Images------*/
 img{
   max-width:100%;
@@ -54,8 +63,7 @@ letter-spacing:.3px;
 
 }
 
-header.primary nav{
-}
+
 
 header.primary nav ul{
   padding:0;
@@ -93,6 +101,61 @@ header.primary nav a:hover {
   gap:20px;
 }
 
+#content .post{
+  box-shadow: 0 4px 8px rgba(0,0,0,0,6);
+  padding:10px;
+  font-size:.8rem;
+}
+figure{margin:0}
+
+#content time, figcaption{
+text-transform:uppercase;
+font-size:.6rem;
+}
+
+#content a{
+  color: #3b633b;
+}
+
+#practice h2{
+  color: #3b638b;
+  border-bottom:1px dotted #cccccc;
+}
+
+#practice a:link, #practice a:visited {
+  color: #3b638b
+}
+
+
+
+
+
+
+aside[role="complementary"]{
+  background-color: #172635;
+  color:#ffffff;
+  padding:40px 0;
+}
+
+aside .container{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap:40px;
+}
+
+aside .container a:last-child{
+  color:#ffff;
+display:block;
+text-align:right;
+margin-top:20px;
+}
+
+article.widget footer{
+  display:none;
+}
+
+#colophon{}
 
 
 
