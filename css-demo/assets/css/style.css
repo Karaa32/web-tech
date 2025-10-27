@@ -37,7 +37,7 @@ margin:0;
 }
 header.primary{
   background:#3B638B;
-color:#ffffff;
+color:#e4aecf;
 text-align:center;
 text-shadow: 1px 1px #000000;
 
@@ -89,7 +89,7 @@ header.primary nav a:hover {
 }
 
 #intro h2{
-  color:#3B638B;
+  color:#f1f3f5;
   border-bottom: 1px dotted #c0c0c0;
 
 }
@@ -97,13 +97,13 @@ header.primary nav a:hover {
 #content{
   display:flex;
   flex-direction:row;
-  justify-content:space-around;
-  gap:20px;
+  justify-content:space-between;
+  gap:10px;
 }
 
 #content .post{
   box-shadow: 0 4px 8px rgba(0,0,0,0,6);
-  padding:10px;
+  padding:30px;
   font-size:.8rem;
 }
 figure{margin:0}
@@ -114,7 +114,7 @@ font-size:.6rem;
 }
 
 #content a{
-  color: #3b633b;
+  color: #81d1db;
 }
 
 #practice h2{
@@ -168,7 +168,7 @@ td{
 }
 
 #practice ul ul {
-  color:red;
+  color:rgb(29, 168, 223);
 }
 
 #practice ul ul ul{
