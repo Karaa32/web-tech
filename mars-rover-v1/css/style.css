@@ -15,14 +15,6 @@ html {
   margin:40px auto;
 }
 
-.img-left{
-  float:left;
-  border: 1px solid #ccc;
-  padding:5px;
-  border-radius:5px;
-  margin:10px 20px 10px 0;
-}
-
 
 /*------Responsive Images------*/
 img{
@@ -31,13 +23,13 @@ img{
 
 
 body {
-    background-color: rgb(238, 233, 235);
+    background-color: rgb(248, 247, 247);
     font-family: "Alan Sans", sans-serif;
 margin:0;
 }
 header.primary{
-  background:#3B638B;
-color:#e4aecf;
+  background:#0a0c0e;
+color:#f8f2f6;
 text-align:center;
 text-shadow: 1px 1px #000000;
 
@@ -53,7 +45,7 @@ margin: 20px 0 0;
 }
 
 header.primary a{
-  color:#1a0101;
+  color:#f7eeee;
   text-decoration:none;
 }
 
@@ -75,7 +67,7 @@ header.primary nav li{
   list-style-type:none;
 }
 header.primary nav a{
-  color:#110f0f;
+  color:#f1ebeb;
   font: size 9rem;
   background-color:rgba(0,0,0,.4);
   padding:5px 7.5px;
@@ -89,16 +81,9 @@ header.primary nav a:hover {
 }
 
 #intro h2{
-  color:#131314;
+  color:#080808;
   border-bottom: 1px dotted #c0c0c0;
 
-}
-
-#content{
-  display:flex;
-  flex-direction:row;
-  justify-content:space-between;
-  gap:10px;
 }
 
 #content .post{
@@ -114,27 +99,24 @@ font-size:.6rem;
 }
 
 #content a{
-  color: #81d1db;
+  color: #060808;
 }
 
 #practice h2{
-  color: #3b638b;
+  color: #0c0e11;
   border-bottom:1px dotted #cccccc;
 }
 
 #practice a:link, #practice a:visited {
-  color: #3b638b
+  color: #040608
 }
 
 #practice h3{
-  border-left:7.5px solid #3b638b;
+  border-left:7.5px solid #000203;
   padding:5px 0 5px 7.5px;
 }
 
-table{
-  width:100%;
-  border:1px solid #c0c0c0;
-}
+
 caption{
   font-weight: bold;
   margin: 10px;
@@ -154,7 +136,7 @@ tr:hover{
 
 
 th{
-  background-color:#172635;
+  background-color:#0b0c0e;
   color:#ffffff;
   padding: 7.5px;
 }
@@ -168,7 +150,7 @@ td{
 }
 
 #practice ul ul {
-  color:rgb(29, 168, 223);
+  color:rgb(6, 7, 7);
 }
 
 #practice ul ul ul{
@@ -205,12 +187,6 @@ margin-top:20px;
 }
 
 
-aside[role="complementary"]{
-  background-color: #172635;
-  color:#ffffff;
-  padding:40px 0;
-}
-
 aside .container{
   display:flex;
   flex-direction:row;
@@ -224,6 +200,8 @@ display:block;
 text-align:right;
 margin-top:20px;
 }
+
+
 
 article.widget footer{
   display:none;
