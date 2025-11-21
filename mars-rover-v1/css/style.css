@@ -28,7 +28,10 @@ body {
 margin:0;
 }
 header.primary{
-  background:#0a0c0e;
+  background-image: url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg);
+  background-size:cover;
+  
+
 color:#f8f2f6;
 text-align:center;
 text-shadow: 1px 1px #000000;
@@ -38,7 +41,7 @@ text-shadow: 1px 1px #000000;
 }
 
 header.primary h1{
-font-size:2.4rem;
+font-size:3.0rem;
 color:#ffffff;
 margin: 20px 0 0;
 
@@ -50,7 +53,7 @@ header.primary a{
 }
 
 header.primary h2{
-font-size:1.3ren;
+font-size:1.8ren;
 letter-spacing:.3px;
 
 }
@@ -206,6 +209,34 @@ margin-top:20px;
 article.widget footer{
   display:none;
 }
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+#content .post {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#content .post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+#content .post h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+
 
 
 
